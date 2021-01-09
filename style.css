@@ -16,3 +16,43 @@
 *{
 	
 }
+.box{
+	max-width: 280px;					
+	box-shadow: 0 0 3px #333;
+}
+hr.claude{
+	width: 250px;
+	border:2px solid #03000a; 
+}
+hr.georges{
+	width: 270px;
+	border:2px solid #03000a; 
+}
+hr.jve{
+	width: 225px;
+	border:2px solid #03000a; 
+}
+hr.johannes{
+	width: 320px;
+	border:2px solid #03000a; 
+}
+hr.leonardo{
+	width: 325px;
+	border:2px solid #03000a; 
+}	
+hr.picasso{
+	width: 240px;
+	border:2px solid #03000a; 
+}
+hr.rembrant{
+	width: 200px;
+	border:2px solid #03000a;
+}
+hr.vangogh{
+	width: 320px;
+	border:2px solid #03000a;
+}
+hr.james{
+	width: 540px;
+	border:2px solid #03000a;	 
+}	
