@@ -28,7 +28,7 @@ body{
 hr.divided{
 	width: 90px;
 	margin: auto;
-	border: 2px solid #2b87b3;
+	border: 2px solid #7dcdf5;
 }
 
 .gallery{
@@ -174,47 +174,53 @@ h2{
 
 hr.artist-page{
 	width: 110px;
-	border:2px solid #2b87b3; 
+	border:2px solid #7dcdf5; 
 }
 hr.claude{
 	width: 250px;
-	border:2px solid #2b87b3; 
+	border:2px solid #7dcdf5; 
 }
 hr.georges{
 	width: 270px;
-	border:2px solid #2b87b3; 
+	border:2px solid #7dcdf5; 
 }
 hr.jve{
 	width: 225px;
-	border:2px solid #2b87b3; 
+	border:2px solid #7dcdf5; 
 }
 hr.johannes{
 	width: 320px;
-	border:2px solid #2b87b3; 
+	border:2px solid #7dcdf5; 
 }
 hr.leonardo{
 	width: 325px;
-	border:2px solid #2b87b3; 
+	border:2px solid #7dcdf5; 
 }	
 hr.picasso{
 	width: 240px;
-	border:2px solid #2b87b3; 
+	border:2px solid #7dcdf5; 
 }
 hr.rembrant{
 	width: 200px;
-	border:2px solid #2b87b3;
+	border:2px solid #7dcdf5;
 }
 hr.vangogh{
 	width: 320px;
-	border:2px solid #2b87b3;
+	border:2px solid #7dcdf5;
 }
 hr.james{
 	width: 540px;
-	border:2px solid #2b87b3;	 
+	border:2px solid #7dcdf5;	 
 }
 hr.about{
     width: 175px;
     margin: auto;
-    border: 2px solid #2b87b3;
+    border: 2px solid #7dcdf5;
 }	
+.titlefont{
+    font-family: 'Patua One', cursive;
+}
+.pfont{
+    font-family: 'Fraunces', serif;
+}
 
