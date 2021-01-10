@@ -13,6 +13,13 @@
 #mail{
 	color: white;
 }
-*{
-	
+hr.divided{
+	width: 90px;
+	margin: auto;
+	border: 1px solid #2b87b3;
+}
+
+.gallery{
+	width: 500px;
+	height: 400px;
 }
