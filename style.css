@@ -74,7 +74,7 @@ div.quote{
 /*=======
 <<<<<<< HEAD*/
 hr.divided{
-	width: 90px;
+	width: 50px;
 	margin: auto;
 	border: 2px solid #7dcdf5;
 }
@@ -272,7 +272,5 @@ hr.about{
 .titlefont{
     font-family: 'Patua One', cursive;
 }
-.pfont{
-    font-family: 'Fraunces', serif;
-}
+
 
