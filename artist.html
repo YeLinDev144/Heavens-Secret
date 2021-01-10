@@ -11,6 +11,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Imbue:wght@300&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@100&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
 		
 </head>
 <body>
@@ -37,11 +41,13 @@
 
     <!-- artist page start -->
 	<div class="artist container my-3">
-		<h1>Artists</h1>	
+		<h1 class="titlefont">Artists</h1>	
 		<hr class="artist-page">	
-		<div class="nav-item dropdown">
-		    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Select Artist</a>
-		    <ul class="dropdown-menu">
+		<div class="dropdown">
+		    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+   			 Select Artist
+			</button>
+		    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 		      <li><a class="dropdown-item" href="artist/claude-monet.html">Claude Monet</a></li>
 		      <li><a class="dropdown-item" href="artist/georges-seurat.html">Georges Seurat</a></li>
 		      <li><a class="dropdown-item" href="artist/johannes.html">Johannes Vermeer</a></li>
@@ -52,10 +58,10 @@
 		      <li><a class="dropdown-item" href="artist/vangogh.html">Vincent Van Gogh</a></li>
 		      <li><a class="dropdown-item" href="artist/james.html">James Abbott McNeill Whister</a></li>		     
 		    </ul>
-		 </div>
+		 </div>	
 
 		 <!-- artists' photos -->
-		<a href="artist/claude-monet.html" class="btn mt-5 mb-0"><h3>Claude Monet</h3></a>
+		<a href="artist/claude-monet.html" class="btn mt-5 mb-0"><h3 class="titlefont">Claude Monet</h3></a>
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">			
 			<div class="col mb-4">				
 				<div class="col my-4 text-center">								
@@ -77,7 +83,7 @@
 			</div>
 		</div>
 
-		<a href="artist/georges-seurat.html" class="btn mt-3 mb-0"><h3>Georges Seurat</h3></a>
+		<a href="artist/georges-seurat.html" class="btn mt-3 mb-0"><h3 class="titlefont">Georges Seurat</h3></a>
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">			
 			<div class="col mb-4">		
 				<div class="col my-4 text-center">				
@@ -99,7 +105,7 @@
 			</div>
 		</div>
 
-		<a href="artist/johannes.html" class="btn mt-3 mb-0"><h3>Johannes Vermeer</h3></a>
+		<a href="artist/johannes.html" class="btn mt-3 mb-0"><h3 class="titlefont">Johannes Vermeer</h3></a>
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">
 			<div class="col mb-4">
 				<div class="col my-4 text-center">			
@@ -121,7 +127,7 @@
 			</div>
 		</div>
 
-		<a href="artist/jan-van.html" class="btn mt-3 mb-0"><h3>Jan Van Eyck</h3></a>
+		<a href="artist/jan-van.html" class="btn mt-3 mb-0"><h3 class="titlefont">Jan Van Eyck</h3></a>
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">
 			<div class="col mb-4">
 				<div class="col my-4 text-center">
@@ -143,7 +149,7 @@
 			</div>
 		</div>
 
-		<a href="artist/leonardo.html" class="btn mt-3 mb-0"><h3>Leonardo Da Vinci</h3></a>
+		<a href="artist/leonardo.html" class="btn mt-3 mb-0"><h3 class="titlefont">Leonardo Da Vinci</h3></a>
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">
 			<div class="col mb-4">
 				<div class="col my-4 text-center">
@@ -165,7 +171,7 @@
 			</div>
 		</div>
 
-		<a href="artist/picasso.html" class="btn mt-3 mb-0"><h3>Pablo Picasso</h3></a>
+		<a href="artist/picasso.html" class="btn mt-3 mb-0"><h3 class="titlefont">Pablo Picasso</h3></a>
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">
 			<div class="col mb-4">
 				<div class="col my-4 text-center">
@@ -187,7 +193,7 @@
 			</div>
 		</div>
 
-		<a href="artist/rembrandt.html" class="btn mt-3 mb-0"><h3>Rembrandt</h3></a>
+		<a href="artist/rembrandt.html" class="btn mt-3 mb-0"><h3 class="titlefont">Rembrandt</h3></a>
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">
 			<div class="col mb-4">
 				<div class="col my-4 text-center">
@@ -209,7 +215,7 @@
 			</div>
 		</div>
 
-		<a href="artist/vangogh.html" class="btn mt-3 mb-0"><h3>Vincent Van Gogh</h3></a>
+		<a href="artist/vangogh.html" class="btn mt-3 mb-0"><h3 class="titlefont">Vincent Van Gogh</h3></a>
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">
 			<div class="col mb-4">
 				<div class="col my-4 text-center">
@@ -231,7 +237,7 @@
 			</div>
 		</div>
 
-		<a href="artist/james.html" class="btn mt-3 mb-0"><h3>James Abbott McNeill Whister</h3></a>
+		<a href="artist/james.html" class="btn mt-3 mb-0"><h3 class="titlefont">James Abbott McNeill Whister</h3></a>
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">
 			<div class="col mb-4">
 				<div class="col my-4 text-center">
