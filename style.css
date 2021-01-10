@@ -7,10 +7,30 @@ body{
 *{
     
 }
-
-#fb{
-	color:#1F45FC;
+#nav, #fb{
+    background-color: #7dcdf5;
 }
+/*#nav a:hover{
+    background-color: white;
+
+}*/
+/*#nav a:active{
+    color: green;
+}*/
+#navbar a:link{
+    color: red;
+}
+#navbar a:hover{
+    color: green;
+}
+#navbar a:visited{
+    color: grey;
+}
+#navbar a:active{
+    color: blue;
+}
+
+
 #vb{
 	color: violet;
 }
@@ -34,6 +54,7 @@ div.quote{
     font-style: italic;
     color: white;
 }
+#ft{background-color: #20b1fa;}
 
 @media only screen and (max-width: 1440px) and (min-width: 1024px){
 #Carousel .carousel_text{
@@ -57,7 +78,7 @@ div.quote{
 hr.divided{
 	width: 90px;
 	margin: auto;
-	border: 1px solid #2b87b3;
+	border: 2px solid #2b87b3;
 }
 
 .gallery{
@@ -202,43 +223,48 @@ h2{
 }
 
 hr.artist-page{
-	width: 100px;
-	border:2px solid #03000a; 
+	width: 110px;
+	border:2px solid #2b87b3; 
 }
 hr.claude{
 	width: 250px;
-	border:2px solid #03000a; 
+	border:2px solid #2b87b3; 
 }
 hr.georges{
 	width: 270px;
-	border:2px solid #03000a; 
+	border:2px solid #2b87b3; 
 }
 hr.jve{
 	width: 225px;
-	border:2px solid #03000a; 
+	border:2px solid #2b87b3; 
 }
 hr.johannes{
 	width: 320px;
-	border:2px solid #03000a; 
+	border:2px solid #2b87b3; 
 }
 hr.leonardo{
 	width: 325px;
-	border:2px solid #03000a; 
+	border:2px solid #2b87b3; 
 }	
 hr.picasso{
 	width: 240px;
-	border:2px solid #03000a; 
+	border:2px solid #2b87b3; 
 }
 hr.rembrant{
 	width: 200px;
-	border:2px solid #03000a;
+	border:2px solid #2b87b3;
 }
 hr.vangogh{
 	width: 320px;
-	border:2px solid #03000a;
+	border:2px solid #2b87b3;
 }
 hr.james{
 	width: 540px;
-	border:2px solid #03000a;	 
+	border:2px solid #2b87b3;	 
+}
+hr.about{
+    width: 175px;
+    margin: auto;
+    border: 2px solid #2b87b3;
 }	
 
