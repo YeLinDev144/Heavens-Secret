@@ -4,9 +4,10 @@ body{
     background-color: #cbbe8a;
 }
 >>>>>>> 320a751bef0fbef4981ae3c9567c484ec11e9bbf*/
-#imgh{
-	height: 400px;
+*{
+    
 }
+
 #fb{
 	color:#1F45FC;
 }
@@ -19,10 +20,38 @@ body{
 #mail{
 	color: white;
 }
-/*<<<<<<< HEAD*/
-*{
-	
+.fonts{
+    font-family: 'Lobster', cursive;
+
 }
+div.quote{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px){
+#Carousel .carousel_text{
+    position: absolute;
+    top: 170px;
+    left: 70px;
+}
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+#Carousel .carousel_text{
+    position: absolute;
+    top: 110px;
+    left: 70px;
+}
+}
+
+/*<<<<<<< HEAD*/
+
 /*=======
 <<<<<<< HEAD*/
 hr.divided{
@@ -36,7 +65,7 @@ hr.divided{
 	height: 400px;
 }
 /*=======*/
-#name{
+#name, #wlcm{
 	font-family: 'Lobster', cursive;
 }
 
@@ -59,7 +88,7 @@ h2{
 
 .slick-slide img {
     width: 100%;
-    height: 200px;
+    /*height: 200px;*/
 }
 
 .slick-slider
