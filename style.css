@@ -4,25 +4,73 @@ body{
     background-color: #cbbe8a;
 }
 >>>>>>> 320a751bef0fbef4981ae3c9567c484ec11e9bbf*/
-#imgh{
-	height: 400px;
+*{
+    
 }
-#fb{
-	color:#1F45FC;
+#nav, #fb{
+    background-color: #7dcdf5;
 }
+/*#nav a:hover{
+    background-color: white;
+
+}*/
+/*#nav a:active{
+    color: green;
+}*/
+#navbar a:link{
+    color: red;
+}
+#navbar a:hover{
+    color: green;
+}
+#navbar a:visited{
+    color: grey;
+}
+#navbar a:active{
+    color: blue;
+}
+
+
 #vb{
 	color: violet;
 }
-#ph{
+#ph, #mail{
 	color: white;
 }
-#mail{
-	color: white;
+
+.fonts{
+    font-family: 'Lobster', cursive;
+
 }
+div.quote{
+    position: absolute;
+    top: 60%;
+    left: 57%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+#ft{background-color: #20b1fa;}
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px){
+#Carousel .carousel_text{
+    position: absolute;
+    top: 170px;
+    left: 70px;
+}
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+#Carousel .carousel_text{
+    position: absolute;
+    top: 110px;
+    left: 70px;
+}
+}
+
 /*<<<<<<< HEAD*/
-*{
-	
-}
+
 /*=======
 <<<<<<< HEAD*/
 hr.divided{
@@ -36,18 +84,22 @@ hr.divided{
 	height: 400px;
 }
 /*=======*/
-#name{
+#name, #wlcm{
 	font-family: 'Lobster', cursive;
 }
 
-h2{
-	font-family: 'Imbue', serif;
+#feature{
+	font-family: 'Noto Serif';
 }
-
-.background_img{
-    background-image: url(image/bground.jpg);
+hr.divided{
+    width: 220px;
+    margin: auto;
+    border:2px solid #2980b9;
+}
+/*.background_img{
+    background-image: url(image/bg7.jpg);
     background-attachment: fixed;
-}
+}*/
 
 /*slider plugin*/
 
@@ -59,7 +111,7 @@ h2{
 
 .slick-slide img {
     width: 100%;
-    height: 200px;
+    /*height: 200px;*/
 }
 
 .slick-slider
