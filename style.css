@@ -163,9 +163,10 @@ h2{
 *{
 	
 }
-.box{
-	max-width: 280px;					
-	box-shadow: 0 0 3px #333;
+
+hr.artist-page{
+	width: 100px;
+	border:2px solid #03000a; 
 }
 hr.claude{
 	width: 250px;
