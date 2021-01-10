@@ -10,13 +10,7 @@ body{
 #nav, #fb{
     background-color: #7dcdf5;
 }
-/*#nav a:hover{
-    background-color: white;
 
-}*/
-/*#nav a:active{
-    color: green;
-}*/
 #navbar a:link{
     color: red;
 }
@@ -32,7 +26,7 @@ body{
 
 
 #vb{
-	color: violet;
+	color: #7F00FF;
 }
 #ph, #mail{
 	color: white;
