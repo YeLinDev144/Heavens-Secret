@@ -1,6 +1,9 @@
+/*<<<<<<< HEAD
+=======
 body{
     background-color: #cbbe8a;
 }
+>>>>>>> 320a751bef0fbef4981ae3c9567c484ec11e9bbf*/
 #imgh{
 	height: 400px;
 }
@@ -16,7 +19,12 @@ body{
 #mail{
 	color: white;
 }
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
+*{
+	
+}
+/*=======
+<<<<<<< HEAD*/
 hr.divided{
 	width: 90px;
 	margin: auto;
@@ -27,7 +35,7 @@ hr.divided{
 	width: 500px;
 	height: 400px;
 }
-=======
+/*=======*/
 #name{
 	font-family: 'Lobster', cursive;
 }
@@ -204,4 +212,4 @@ hr.james{
 	width: 540px;
 	border:2px solid #03000a;	 
 }	
->>>>>>> 84464bf37ba1e6ae6e1f2dce5cfe4edd255ca684
+
