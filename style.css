@@ -36,19 +36,19 @@ body{
     font-family: 'Lobster', cursive;
 
 }
-div.quote{
+/*div.quote{
     position: absolute;
-    top: 60%;
-    left: 57%;
+    top: 35%;
+    left: 45%;
     background-color: rgba(0,0,0,0.5);
     padding: 30px;
     font-size: 30px;
     font-style: italic;
     color: white;
-}
+}*/
 #ft{background-color: #20b1fa;}
 
-@media only screen and (max-width: 1440px) and (min-width: 1024px){
+/*@media only screen and (max-width: 1440px) and (min-width: 1024px){
 #Carousel .carousel_text{
     position: absolute;
     top: 170px;
@@ -61,7 +61,7 @@ div.quote{
     top: 110px;
     left: 70px;
 }
-}
+}*/
 
 /*<<<<<<< HEAD*/
 
